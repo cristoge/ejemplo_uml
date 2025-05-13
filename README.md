@@ -48,10 +48,10 @@ Mantener sincronizados el diseño UML y el código fuente del proyecto mediante 
 ## 📸 Capturas
 
 ### Antes del cambio:
-![antes](./capturas/antes.png)
+![antes](./captures/antes.png)
 
 ### Después del cambio:
-![despues](./capturas/despues.png)
+![despues](./captures/despues.png)
 
 ---
 
