@@ -1,0 +1,23 @@
+@startuml Clientes
+
+class Cliente {
+    - nombre: String
+    - email: String
+    + realizarPedido(): void
+}
+
+class Pedido {
+    - id: int
+    - fecha: Date
+    + agregarProducto(): void
+}
+
+class Producto {
+    - nombre: String
+    - precio: float
+}
+
+Cliente "1" -- "0..*" Pedido : realiza >
+Pedido "*" -- "1" Producto : contiene >
+
+@enduml
