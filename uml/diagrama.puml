@@ -17,7 +17,15 @@ class Producto {
     - precio: float
 }
 
+class Pago {
+    - id: int
+    - cantidad: float
+    - metodo: String
+    + procesarPago(): void
+}
+
 Cliente "1" -- "0..*" Pedido : realiza >
 Pedido "*" -- "1" Producto : contiene >
+Cliente "1" -- "0..*" Pago : realiza >
 
 @enduml
